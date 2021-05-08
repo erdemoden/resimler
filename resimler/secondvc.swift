@@ -9,21 +9,21 @@ import UIKit
 
 class secondvc: UIViewController {
 
+    @IBOutlet weak var img: UIImageView!
+    @IBOutlet weak var lbl: UILabel!
+    var gelen = ""
     override func viewDidLoad() {
         super.viewDidLoad()
+        lbl.text = "You Chose : \(gelen)"
+        img.image = UIImage(named: gelen)
 
-        // Do any additional setup after loading the view.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func vote(_ sender: Any) {
+        let alert = UIAlertController(title: "You Voted", message: "You voted \(gelen) thank you so much", preferredStyle: UIAlertController.Style.alert)
+        let button = UIAlertAction(title: "Okay", style: .default, handler: nil)
+        alert.addAction(button)
+        self.present(alert, animated: true, completion: nil)
     }
-    */
-
+    
 }

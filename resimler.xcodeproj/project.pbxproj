@@ -15,6 +15,8 @@
 		193BEE8A2646E7620014E11E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 193BEE882646E7620014E11E /* LaunchScreen.storyboard */; };
 		193BEE952646E7620014E11E /* resimlerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193BEE942646E7620014E11E /* resimlerTests.swift */; };
 		193BEEA02646E7620014E11E /* resimlerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193BEE9F2646E7620014E11E /* resimlerUITests.swift */; };
+		193BEEAE2646EFE50014E11E /* cellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193BEEAD2646EFE50014E11E /* cellTableViewCell.swift */; };
+		19EAC2CE2647298300CE9F3D /* secondvc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19EAC2CD2647298300CE9F3D /* secondvc.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		193BEE9B2646E7620014E11E /* resimlerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = resimlerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		193BEE9F2646E7620014E11E /* resimlerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resimlerUITests.swift; sourceTree = "<group>"; };
 		193BEEA12646E7620014E11E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		193BEEAD2646EFE50014E11E /* cellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cellTableViewCell.swift; sourceTree = "<group>"; };
+		19EAC2CD2647298300CE9F3D /* secondvc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondvc.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +107,11 @@
 				193BEE7F2646E7610014E11E /* SceneDelegate.swift */,
 				193BEE812646E7610014E11E /* ViewController.swift */,
 				193BEE832646E7610014E11E /* Main.storyboard */,
+				19EAC2CD2647298300CE9F3D /* secondvc.swift */,
 				193BEE862646E7620014E11E /* Assets.xcassets */,
 				193BEE882646E7620014E11E /* LaunchScreen.storyboard */,
 				193BEE8B2646E7620014E11E /* Info.plist */,
+				193BEEAD2646EFE50014E11E /* cellTableViewCell.swift */,
 			);
 			path = resimler;
 			sourceTree = "<group>";
@@ -259,7 +265,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				193BEE822646E7610014E11E /* ViewController.swift in Sources */,
+				193BEEAE2646EFE50014E11E /* cellTableViewCell.swift in Sources */,
 				193BEE7E2646E7610014E11E /* AppDelegate.swift in Sources */,
+				19EAC2CE2647298300CE9F3D /* secondvc.swift in Sources */,
 				193BEE802646E7610014E11E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
