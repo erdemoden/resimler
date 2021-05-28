@@ -6,4 +6,4 @@ büyük bir fotosu olan başka bir sayfaya getiriyor ve o sayfada bulunan vote b
 
 # uygulama resimleri
 
-![](images/uygulama-image-1.png)
+![](resimler/uygulama-image-1.png)
