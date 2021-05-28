@@ -8,10 +8,9 @@ büyük bir fotosu olan başka bir sayfaya getiriyor ve o sayfada bulunan vote b
 
 # -1-
 
+
 ![](uygulama-image-1.PNG)
 
 # -2-
-![](uygulama-image-2.PNG)
-# -3-
 
 ![](uygulama-image-3.PNG)
